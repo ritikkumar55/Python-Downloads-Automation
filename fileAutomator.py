@@ -8,14 +8,13 @@ import logging
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
-# ! FILL IN BELOW
-# ? folder to track e.g. Windows: "C:\\Users\\UserName\\Downloads"
-source_dir = ""
-dest_dir_sfx = ""
-dest_dir_music = ""
-dest_dir_video = ""
-dest_dir_image = ""
-dest_dir_documents = ""
+
+source_dir = "C:\\Users\\hp\\Downloads"
+dest_dir_sfx = "C:\\Users\\hp\\Desktop\\Sound"
+dest_dir_music = "C:\\Users\\hp\\Desktop\\Sound\\Music"
+dest_dir_video = "C:\\Users\\hp\\Downloads\\video"
+dest_dir_image = "C:\\Users\\hp\\Desktop\\DownloadedImage"
+dest_dir_documents = "C:\\Users\\hp\\Desktop\\DownloadedDocs"
 
 # ? supported image types
 image_extensions = [".jpg", ".jpeg", ".jpe", ".jif", ".jfif", ".jfi", ".png", ".gif", ".webp", ".tiff", ".tif", ".psd", ".raw", ".arw", ".cr2", ".nrw",
